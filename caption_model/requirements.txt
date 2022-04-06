@@ -1,0 +1,7 @@
+torch
+PIL
+nltk
+pickle
+numpy
+matplotlib
+torchvision
