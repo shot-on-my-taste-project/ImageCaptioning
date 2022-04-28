@@ -24,7 +24,7 @@ def load_image(image_path):
     return image
 
 def main():
-    # 캡션을 생성할 이미지가 존재하는 디렉토릭 경로
+    # 캡션을 생성할 이미지가 존재하는 디렉토리 경로
     image_dir = r"data\resize_test"
     encoder_path = "caption_model/encoder-5.ckpt" 
     decoder_path = "caption_model/decoder-5.ckpt" 
@@ -78,5 +78,4 @@ def main():
         print(path.split("\\")[-1])
 
 if __name__ == "__main__":
-    print(123)
     main()

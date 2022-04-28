@@ -10,8 +10,8 @@ __pycache__/
 *.json
 *.jpg
 *.jpeg
-caption.txt
-captions.txt
+*.txt
+*.pt
 
 # C extensions
 *.so
